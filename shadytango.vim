@@ -25,7 +25,7 @@ highlight ErrorMsg        guifg=#D3D7CF guibg=#CC0000
 highlight IncSearch       gui=reverse
 highlight Search          guibg=#C4A000
 highlight MoreMsg         guifg=#4E9A06
-" highlight ModeMsg         gui=bold
+" highlight ModeMsg         gui=none
 highlight LineNr          guifg=#666666 guibg=#151515
 "highlight LineNr          term=underline ctermfg=3 guifg=#C4A000 guibg=bg
 highlight Question        guifg=#4E9A06
@@ -56,7 +56,7 @@ highlight PmenuSel        guibg=#D3D7CF guifg=#000000
 highlight PmenuSbar       guibg=#75507B
 highlight PmenuThumb      gui=reverse
 highlight TabLine         gui=underline guibg=#D3D7CF guifg=#000000
-"highlight TabLineSel      gui=bold
+"highlight TabLineSel      gui=none
 highlight TabLineFill     gui=reverse
 highlight CursorColumn    guibg=#D3D7CF guifg=#000000
 highlight CursorLine      guibg=#D3D7CF guifg=#000000

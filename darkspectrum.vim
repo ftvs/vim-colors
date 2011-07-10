@@ -30,10 +30,10 @@ hi CursorLine   guibg=#000000
 "hi CursorLine  guibg=#3e4446
 hi CursorColumn guibg=#464646
 
-"hi DiffText     guibg=#4e9a06 guifg=#FFFFFF gui=bold
-"hi DiffChange   guibg=#4e9a06 guifg=#FFFFFF gui=bold
-"hi DiffAdd      guibg=#204a87 guifg=#FFFFFF gui=bold
-"hi DiffDelete   guibg=#5c3566 guifg=#FFFFFF gui=bold
+"hi DiffText     guibg=#4e9a06 guifg=#FFFFFF gui=none
+"hi DiffChange   guibg=#4e9a06 guifg=#FFFFFF gui=none
+"hi DiffAdd      guibg=#204a87 guifg=#FFFFFF gui=none
+"hi DiffDelete   guibg=#5c3566 guifg=#FFFFFF gui=none
 
 hi DiffAdd         guifg=#ffcc7f guibg=#a67429 gui=none
 hi DiffChange      guifg=#7fbdff guibg=#425c78 gui=none
@@ -44,14 +44,14 @@ hi DiffDelete      guifg=#000000 guibg=#000000 gui=none
 
 hi Number       guifg=#fce94f
 
-hi Folded       guibg=#000000 guifg=#FFFFFF gui=bold
-hi vimFold      guibg=#000000 guifg=#FFFFFF gui=bold
-hi FoldColumn   guibg=#000000 guifg=#FFFFFF gui=bold
+hi Folded       guibg=#000000 guifg=#FFFFFF gui=none
+hi vimFold      guibg=#000000 guifg=#FFFFFF gui=none
+hi FoldColumn   guibg=#000000 guifg=#FFFFFF gui=none
 
 hi LineNr       guifg=#535353 guibg=#202020
 hi NonText      guifg=#535353 guibg=#202020
-hi Folded       guifg=#535353 guibg=#202020 gui=bold
-hi FoldeColumn  guifg=#535353 guibg=#202020 gui=bold
+hi Folded       guifg=#535353 guibg=#202020 gui=none
+hi FoldeColumn  guifg=#535353 guibg=#202020 gui=none
 "hi VertSplit   guibg=#ffffff guifg=#ffffff gui=none
 
 hi VertSplit    guibg=#3C3C3C guifg=#3C3C3C gui=none
@@ -75,17 +75,17 @@ hi Comment      guifg=#8a8a8a
 hi Constant     guifg=#ef5939 gui=none
 hi String       guifg=#fce94f
 hi Identifier   guifg=#729fcf
-hi Statement    guifg=#ffffff gui=bold
-hi PreProc      guifg=#ffffff gui=bold
-hi Type         guifg=#8ae234 gui=bold
+hi Statement    guifg=#ffffff gui=none
+hi PreProc      guifg=#ffffff gui=none
+hi Type         guifg=#8ae234 gui=none
 hi Special      guifg=#e9b96e
 hi Underlined   guifg=#ad7fa8 gui=underline
 hi Directory    guifg=#729fcf
 hi Ignore       guifg=#555753
-hi Todo         guifg=#FFFFFF guibg=#ef5939 gui=bold
+hi Todo         guifg=#FFFFFF guibg=#ef5939 gui=none
 hi Function     guifg=#ad7fa8
 
-"hi WildMenu     guibg=#2e3436 guifg=#ffffff gui=bold
+"hi WildMenu     guibg=#2e3436 guifg=#ffffff gui=none
 "hi WildMenu     guifg=#7fbdff guibg=#425c78 gui=none
 hi WildMenu     guifg=#ffffff guibg=#3465a4 gui=none
 
@@ -94,7 +94,7 @@ hi PmenuSel     guibg=#3465a4 guifg=#ffffff
 hi PmenuSbar    guibg=#444444 guifg=#444444
 hi PmenuThumb   guibg=#888888 guifg=#888888 
 
-hi cppSTLType   guifg=#729fcf gui=bold
+hi cppSTLType   guifg=#729fcf gui=none
 
 hi spellBad     guisp=#fcaf3e
 hi spellCap     guisp=#73d216
@@ -125,6 +125,6 @@ hi link schemeFunc      Statement
 " tabs (non gui)
 hi TabLine      guifg=#A3A3A3 guibg=#202020 gui=none
 hi TabLineFill  guifg=#535353 guibg=#202020 gui=none
-hi TabLineSel   guifg=#FFFFFF gui=bold
-"hi TabLineSel  guifg=#FFFFFF guibg=#000000 gui=bold
+hi TabLineSel   guifg=#FFFFFF gui=none
+"hi TabLineSel  guifg=#FFFFFF guibg=#000000 gui=none
 " vim: sw=4 ts=4
